@@ -1,0 +1,11 @@
+v1.1.0 (2015-11-05) 
+RELEASE: Currently scrapes <artist>, <album>, <studio> (taken from Label), <title>, <runtime>, <year>, <plot>, <country> and<thumb URL>(displays album cover-front).
+
+Artist description and Recording description are stored/displayed as <plot>.  Artist and Recording descriptions are from Wiki(proper credit given to Wiki in displayed description).
+  Artist description is default and will display for most recordings(tracks).  Recording(track) description, if found at Wiki, will replace Artist description.  Wiki has recording(track) information for about 40-50% of tracks I have scraped.  Your results will most likely be different as available information typically depends on artist and song popularity.
+
+<country>, although scraped, is not displayed.  Kodi musicvideo database does not support this tag at this time.
+
+Fanart is not scraped as Kodi musicvideo database does not support this tag at this time.
+
+<track> is not scraped as track number/position is not relevant. 
